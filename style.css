@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(45deg, #001780, #00AFFC);
+}
+
+a{
+	text-decoration: none;
+}
+
+.navigation-bar{
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+}
+
+.navigation-bar ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.navigation-bar ul li a{
+	color: white;
+	padding: 10px;
+}
+
+.navigation-bar ul li a:hover{
+	color: #001780;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.social-icon{
+	text-align: center;
+}
+
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.social-icon ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: white;
+	color: #001780;
+	border-radius: 100%;
+	line-height: 60px;
+	font-size: 30px;
+	transition: 0.5s;
+	margin: 20px;
+	position: fixed;
+	z-index: 9999;
+
+}
+
+.social-icon ul li a i:hover{
+	transform: scale(0.6);
+	transition: 0.5s;
+}
+
+.subscribe{
+	width: 500px;
+	margin: 50px auto;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 15px;
+	text-align: center;
+	padding: 30px;
+}
+
+.subscribe h3{
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.email{
+	padding: 10px;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.email:focus{
+	outline: none;
+}
+
+.submit-btn{
+	padding: 10px;
+	background-color: white;
+	border: 1px white;
+	cursor: pointer;
+	border-radius: 5px;
+	color: #001780;
+	transition: 0.5s;
+	margin-left: 5px;
+}
+
+.submit-btn:hover{
+	background-color: #001780;
+	transition: 0.5s;
+	border: none;
+	color: white;
+}
+
+.outer-box{
+	width: 500px;
+	height: 250px;
+	background-color: green;
+	margin: auto;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.circle{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	background-color: red;
+	position: absolute;
+	top: 38px;
+    left: 162px;
+}
+
+.comment-bg{
+	width: 500px;
+	height: 250px;
+	background-color: white;
+	margin: auto;
+	position: relative;
+}
+
+.post{
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	position: absolute;
+	bottom: -25px;
+    transform: rotate(45deg);
+    left: 234px;
+}
+
+.vvvs ul li a{
+	color: white;
+}
